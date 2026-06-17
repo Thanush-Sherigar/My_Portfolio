@@ -64,7 +64,7 @@
 
       <div class="container" data-aos="zoom-out">
         <div class="row">
-          <div class="col-lg-7">
+          <div class="col-lg-7 offset-lg-1">
             <h2>Thanush S</h2>
             <p>I'm <span class="typed" data-typed-items="Full Stack Developer, SDE, Backend Developer, Tech Enthusiast">Full Stack Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
             <div class="social-links">
@@ -331,8 +331,28 @@
               <ul>
                 <li>Built a MERN platform that uses LLMs to analyze research PDFs, generating summaries, claim extraction, novelty detection, and semantic search</li>
                 <li>Architected an Express backend to orchestrate an AI pipeline that parses unstructured text into structured entities (Claims, Evidence, Methods) via LLM API integration</li>
-                <li>Used MongoDB for metadata storage and a vector database for high-confidence semantic mapping and similarity search</li>
-                <li>Built a 'Hallucination Risk Scan' and reproducibility diagnostic to flag unquantified claims</li>
+                <li>Used MongoDB for metadata storage and a vector database for similarity search</li>
+                <li>Built a 'Hallucination Risk Scan' to flag unquantified claims</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Subscription Tracker API</h4>
+              <p><em>Node.js, Express, MongoDB</em></p>
+              <ul>
+                <li>Engineered a scalable, secure RESTful API using Express.js with MongoDB models for efficient data storage</li>
+                <li>Developed authentication and authorization systems, including user registration, login, and access control</li>
+                <li>Built a reminder workflow engine to manage user subscriptions and automate time-sensitive email notifications</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Attendance Recorder V1</h4>
+              <p><em>Spring Boot &amp; Android (Java)</em></p>
+              <ul>
+                <li>Developed a full-stack attendance system using Spring Boot, Android, MySQL, and REST APIs</li>
+                <li>Implemented secure JWT-based authentication, QR-code attendance validation, and duplicate/proxy scan prevention</li>
+                <li>Built Spring Boot backend modules for student-course mapping and RESTful API handling</li>
               </ul>
             </div><!-- End Resume Item -->
 
@@ -361,18 +381,17 @@
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-web">Full Stack / Web</li>
             <li data-filter=".filter-api">Backend / API</li>
-            <li data-filter=".filter-ai-ml">AI / ML</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web filter-ai-ml">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
               <img src="assets/img/project-paper-reviewer.png" class="img-fluid" alt="Paper Reviewer">
               <div class="portfolio-info">
                 <h4>Paper Reviewer</h4>
                 <p>AI Research Analysis Platform (MERN)</p>
                 <a href="assets/img/project-paper-reviewer.png" title="Paper Reviewer - AI-Powered Platform" data-gallery="portfolio-gallery-web" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="https://github.com/Thanush-Sherigar/My_Portfolio" target="_blank" title="GitHub Repository" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="https://github.com/Thanush-Sherigar/AI_powered_research_paper_analysis" target="_blank" title="GitHub Repository" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -382,27 +401,21 @@
                 <h4>Subscription Tracker API</h4>
                 <p>Node.js, Express, MongoDB API Engine</p>
                 <a href="assets/img/project-subscription-tracker.png" title="Subscription Tracker API Engine" data-gallery="portfolio-gallery-api" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="https://github.com/Thanush-Sherigar/My_Portfolio" target="_blank" title="GitHub Repository" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="https://github.com/Thanush-Sherigar/subscription-tracker-api" target="_blank" title="GitHub Repository" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ai-ml">
-              <img src="assets/img/project-motovalue.png" class="img-fluid" alt="Motovalue">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web filter-api">
+              <img src="assets/img/project-motovalue.png" class="img-fluid" alt="Attendance Recorder V1">
               <div class="portfolio-info">
-                <h4>Motovalue</h4>
-                <p>Used Car Price Prediction (ML/Python)</p>
-                <a href="assets/img/project-motovalue.png" title="Motovalue - Used Car Price Prediction" data-gallery="portfolio-gallery-ai" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="https://github.com/Thanush-Sherigar/My_Portfolio" target="_blank" title="GitHub Repository" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Attendance Recorder V1</h4>
+                <p>Spring Boot &amp; Android Attendance App</p>
+                <a href="assets/img/project-motovalue.png" title="Attendance Recorder V1" data-gallery="portfolio-gallery-api" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/Thanush-Sherigar/Attendance_Recorder_V1" target="_blank" title="GitHub Repository" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
           </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
 
         </div>
 
