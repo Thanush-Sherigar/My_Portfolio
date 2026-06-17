@@ -1457,3 +1457,24 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* Custom Resume Download Button Styles */
+.btn-resume {
+  color: var(--contrast-color) !important;
+  background: var(--accent-color);
+  border: 0;
+  padding: 10px 30px;
+  transition: 0.4s;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.btn-resume:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 25%);
+  color: var(--contrast-color) !important;
+  text-decoration: none;
+}
